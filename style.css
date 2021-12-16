@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.sfondo{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+
+}
+
+#trasparente{
+  background-color: rgba(89, 86,65, 0.8);
+  width: 90%;
+  max-height: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50px;
+}
+
+.intestazione{
+  text-align: center;
+}
+
+header h1{
+  color: rgb(0, 221, 0);
+}
+
+header img{
+  width: 200px;
+  margin-top: 10px;
+}
+
+.contenitore {
+  width: 80%;
+  background: rgb(0, 221, 0);
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+}
+
+.contenitore button{
+  margin: 5px;
+  padding: 5px;
+  font-size: 15px;
+  background: white;
+}
+
+button:hover{
+  color: red;
+  background: yellow;
+  font-size: 16px;
+}
+
+
+.corpo{
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+
+.corpo h2{
+  display: inline-block;
+}
+
+.carica1, .carica2, .carica3{
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.carica1 {
+  background: rgb(254, 180, 83);
+  width: 25%;
+}
+
+.carica2 {
+  background: rgb(30, 195, 30);
+  width: 60%;
+}
+
+.carica3{
+  background: rgb(190, 65, 65);
+  width: 15%;
+  margin-bottom: 40px;
+}
